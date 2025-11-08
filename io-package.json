@@ -12,7 +12,10 @@
         "authors": [
             "Lars Weimar <Eisbaeeer@gmail.com>"
         ],
-        "license":                  "MIT",
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
         "readme":                   "https://github.com/eisbaeeer/iobroker.piface/blob/master/README.md",
         "icon":                     "piface.png",
         "type":                     "hardware",
