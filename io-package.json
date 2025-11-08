@@ -7,6 +7,7 @@
         "mode":                     "daemon",
         "platform":                 "Javascript/Node.js",
         "loglevel":                 "info",
+        "tier": 2,
         "keywords":                 ["piface", "raspberry", "addon"],
         "main":                     "piface.js",
         "authors": [
