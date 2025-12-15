@@ -8,7 +8,6 @@
         "platform":                 "Javascript/Node.js",
         "loglevel":                 "info",
         "keywords":                 ["piface", "raspberry", "addon"],
-        "main":                     "piface.js",
         "authors": [
             "Lars Weimar <Eisbaeeer@gmail.com>"
         ],
