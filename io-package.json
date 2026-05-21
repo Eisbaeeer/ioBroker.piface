@@ -1,220 +1,228 @@
 {
-    "common": {
-        "name":                     "piface",
-        "title":                    "PiFace addon",
-        "desc":                     "Control PiFace Board",
-        "version":                  "1.0.0",
-        "mode":                     "daemon",
-        "platform":                 "Javascript/Node.js",
-        "loglevel":                 "info",
-        "keywords":                 ["piface", "raspberry", "addon"],
-        "main":                     "piface.js",
-        "authors": [
-            "Lars Weimar <Eisbaeeer@gmail.com>"
-        ],
-        "license":                  "MIT",
-        "readme":                   "https://github.com/eisbaeeer/iobroker.piface/blob/master/README.md",
-        "icon":                     "piface.png",
-        "type":                     "hardware",
-        "extIcon":                  "https://raw.githubusercontent.com/eisbaeeer/iobroker.piface/master/admin/piface.png"
-    },
-    "native": {
-        "piboard":  0
-    },
-    "objects": [ 
+  "common": {
+    "name": "piface",
+    "title": "PiFace addon",
+    "desc": "Control PiFace Board",
+    "version": "1.0.0",
+    "mode": "daemon",
+    "platform": "Javascript/Node.js",
+    "loglevel": "info",
+    "keywords": [
+      "piface",
+      "raspberry",
+      "addon"
     ],
-    "instanceObjects": [
-            {
-            "_id": "OUT0",
-            "type": "state",
-            "common": {
-                "name":  "output 0",
-                "type":  "number",
-                "role":  "output",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "OUT1",
-            "type": "state",
-            "common": {
-                "name":  "output 1",
-                "type":  "number",
-                "role":  "output",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "OUT2",
-            "type": "state",
-            "common": {
-                "name":  "output 2",
-                "type":  "number",
-                "role":  "output ",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "OUT3",
-            "type": "state",
-            "common": {
-                "name":  "output 3",
-                "type":  "number",
-                "role":  "output",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "OUT4",
-            "type": "state",
-            "common": {
-                "name":  "output 4",
-                "type":  "number",
-                "role":  "output",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "OUT5",
-            "type": "state",
-            "common": {
-                "name":  "output 5",
-                "type":  "number",
-                "role":  "output",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "OUT6",
-            "type": "state",
-            "common": {
-                "name":  "output 6",
-                "type":  "number",
-                "role":  "output",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "OUT7",
-            "type": "state",
-            "common": {
-                "name":  "output 7",
-                "type":  "number",
-                "role":  "output",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "IN0",
-            "type": "state",
-            "common": {
-                "name":  "input 0",
-                "type":  "number",
-                "role":  "input ",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "IN1",
-            "type": "state",
-            "common": {
-                "name":  "input 1",
-                "type":  "number",
-                "role":  "input",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "IN2",
-            "type": "state",
-            "common": {
-                "name":  "input 2",
-                "type":  "number",
-                "role":  "input",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "IN3",
-            "type": "state",
-            "common": {
-                "name":  "input 3",
-                "type":  "number",
-                "role":  "input",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "IN4",
-            "type": "state",
-            "common": {
-                "name":  "input 4",
-                "type":  "number",
-                "role":  "input",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "IN5",
-            "type": "state",
-            "common": {
-                "name":  "input 5",
-                "type":  "number",
-                "role":  "input",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "IN6",
-            "type": "state",
-            "common": {
-                "name":  "input 6",
-                "type":  "number",
-                "role":  "input",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-        },
-        {
-            "_id": "IN7",
-            "type": "state",
-            "common": {
-                "name":  "input 7",
-                "type":  "number",
-                "role":  "input",
-                "read":  true,
-                "write": true,
-                "def":   null
-            }
-         } 
+    "main": "piface.js",
+    "authors": [
+      "Lars Weimar <Eisbaeeer@gmail.com>"
+    ],
+    "license": "MIT",
+    "readme": "https://github.com/eisbaeeer/iobroker.piface/blob/master/README.md",
+    "icon": "piface.png",
+    "type": "hardware",
+    "extIcon": "https://raw.githubusercontent.com/eisbaeeer/iobroker.piface/master/admin/piface.png",
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
     ]
+  },
+  "native": {
+    "piboard": 0
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "OUT0",
+      "type": "state",
+      "common": {
+        "name": "output 0",
+        "type": "number",
+        "role": "output",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "OUT1",
+      "type": "state",
+      "common": {
+        "name": "output 1",
+        "type": "number",
+        "role": "output",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "OUT2",
+      "type": "state",
+      "common": {
+        "name": "output 2",
+        "type": "number",
+        "role": "output ",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "OUT3",
+      "type": "state",
+      "common": {
+        "name": "output 3",
+        "type": "number",
+        "role": "output",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "OUT4",
+      "type": "state",
+      "common": {
+        "name": "output 4",
+        "type": "number",
+        "role": "output",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "OUT5",
+      "type": "state",
+      "common": {
+        "name": "output 5",
+        "type": "number",
+        "role": "output",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "OUT6",
+      "type": "state",
+      "common": {
+        "name": "output 6",
+        "type": "number",
+        "role": "output",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "OUT7",
+      "type": "state",
+      "common": {
+        "name": "output 7",
+        "type": "number",
+        "role": "output",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "IN0",
+      "type": "state",
+      "common": {
+        "name": "input 0",
+        "type": "number",
+        "role": "input ",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "IN1",
+      "type": "state",
+      "common": {
+        "name": "input 1",
+        "type": "number",
+        "role": "input",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "IN2",
+      "type": "state",
+      "common": {
+        "name": "input 2",
+        "type": "number",
+        "role": "input",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "IN3",
+      "type": "state",
+      "common": {
+        "name": "input 3",
+        "type": "number",
+        "role": "input",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "IN4",
+      "type": "state",
+      "common": {
+        "name": "input 4",
+        "type": "number",
+        "role": "input",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "IN5",
+      "type": "state",
+      "common": {
+        "name": "input 5",
+        "type": "number",
+        "role": "input",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "IN6",
+      "type": "state",
+      "common": {
+        "name": "input 6",
+        "type": "number",
+        "role": "input",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    },
+    {
+      "_id": "IN7",
+      "type": "state",
+      "common": {
+        "name": "input 7",
+        "type": "number",
+        "role": "input",
+        "read": true,
+        "write": true,
+        "def": null
+      }
+    }
+  ]
 }
