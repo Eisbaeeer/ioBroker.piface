@@ -66,6 +66,10 @@ If this is checked, the outputs will be set to 0 by restarting the adapter.
 
 ## ChangeLog
 
+
+### **WORK IN PROGRESS**
+- (ioBroker-Bot) Adapter requires js-controller >= 6.0.11 now.
+
 ### 1.0.0.(2017-09-19)
 * (Eisbaeeer)
 * Solving issue #6 (RAM)
